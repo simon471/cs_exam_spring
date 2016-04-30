@@ -70,11 +70,11 @@ d)  Complete the Queue class by writing the "peek" and "remove" methods.
 
 Ans:
   public Link peek(){
-    Link temp;
-    if(head.next = null){return head;}
+    Link temp = head;
+    if(head.next = null){return temp;}
     else{
       for(int i=1; i<length; i++){
-        temp=head.next;
+        temp=temp.next;
       }
     }
     return temp;
