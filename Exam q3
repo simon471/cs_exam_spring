@@ -48,6 +48,22 @@ public class Queue{
 --------------------------------------------------------------
 
 a)  Explain what a Stack is.  Specify if it is LIFO or FIFO.
+
+ans:
+Stack is like a pile of things. When we put things in, we call it push. When we take things out, we call it pop.
+We call the top thing Peek. The last thing get in the first one get out(LIFO).
+
 b)  Complete the Stack class by writing the "pop" method.
+
+ans:
+   public Link pop(){
+     Link temp = head;
+     head.next = head;
+     length = length-1;
+     return temp;
+   }
 c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
+Queue is like a waiting line. When things go in, we call it add. When things get out, we call it remove.
+We call the first thing Peek. The first thing get in the first one get out(FIFO).
+
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
