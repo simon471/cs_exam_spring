@@ -11,4 +11,18 @@ public interface Greetings{
 -----------------------------------------------------
 
 a)  Explain what an interface is.
+
+Ans:
+An interface is a reference type in Java, it is similar to class, it is a collection of abstract methods.
+A class implements an interface, thereby inheriting the abstract methods of the interface.
+
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+
+Ans:
+public class TonySpeaker implements Greetings{
+  
+  public String Formalhello(){return "Hi.";}
+  
+  public String CasualHello(){return "Whats up!";}
+  
+}
