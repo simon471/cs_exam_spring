@@ -69,7 +69,7 @@ We call the first thing Peek. The first thing get in the first one get out(FIFO)
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
 
 Ans:
-public Link peek(){
+  public Link peek(){
     Link temp;
     if(head.next = null){return head;}
     else{
