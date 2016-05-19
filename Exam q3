@@ -67,3 +67,21 @@ Queue is like a waiting line. When things go in, we call it add. When things get
 We call the first thing Peek. The first thing get in the first one get out(FIFO).
 
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
+
+Ans:
+public Link peek(){
+    Link temp;
+    if(head.next = null){return head;}
+    else{
+      for(int i=1; i<length; i++){
+        temp=head.next;
+      }
+    }
+    return temp;
+    }
+    
+  public Link remove(){
+    Link temp = peek();
+    length = length-1;
+    return temp;
+   }
